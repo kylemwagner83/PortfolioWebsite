@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Kyle's Web Server</title>
+        <link id="stylesheet" rel= "stylesheet" href = "/static/styles/light.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap" rel="stylesheet">
+        <link rel= "shortcut icon" href= "/static/images/favicon.ico">
+    </head>
+
+    <body>
+        <p id="title-name">Kyle Wagner</p>
+        
+        <div id="links-wrapper">
+            <a class="header-link" href="/">Home</a>
+            <a class="header-link" href="/python">Python</a>
+            <a class="header-link" href="/javascript">Javascript</a>
+            <a class="header-link" href="/cpp">C++</a>
+            <a class="header-link" href="/ruby">Ruby</a>
+            <a class="header-link" href="/blender">Blender</a>
+            <a class="header-link" href="/unreal">Unreal Engine</a>
+        </div>
+
+        <br>
+        <br>
+
+        <div id="about-paragraph">
+            <p class="category-title">
+                Ruby projects:
+            </p>
+            <br>
+
+            <p>
+                <span class="project-title">Caesar cipher:</span><br>
+                <span class="project-description">
+                    Caesar cipher coder/decoder written in Ruby.<br>
+                    GitHub Link (opens in new window):&nbsp; <a href="https://github.com/kylemwagner83/solutions-reference/blob/master/bubble-sort.rb" target="_blank">Source Code</a>
+                </span>
+            </p>
+            <br>
+
+            <p>
+                <span class="project-title">Bubble-sort:</span><br>
+                <span class="project-description">
+                    A simple sorting function, sorts an array in ascending order.<br>
+                    Uses a bubble-sort algorithm and no built-in methods<br>
+                    GitHub Link (opens in new window):&nbsp; <a href="https://github.com/kylemwagner83/solutions-reference/blob/master/bubble-sort.rb" target="_blank">Source Code</a>
+                </span>
+            </p>
+            <br>
+
+            <p>
+                <span class="project-title">Tic-tac-toe:</span><br>
+                <span class="project-description">
+                    A basic ASCII/text tic-tac-toe game.<br>
+                    In progress - live code will be shared via repl.it when completed<br>
+                </span>
+            </p>
+            <br>
+
+
+
+        </div>
+
+
+        <div id="styleButtonsWrapper">
+            <span id="themeText">Choose a theme:</span>
+            <button id="styleButton" onclick="changeTheme('/static/styles/light.css')">Light</button>
+            <button id="styleButton" onclick="changeTheme('/static/styles/dark.css')">Dark</button>
+        </div>
+
+
+        <script src="/static/scripts/scripts.js"></script>
+    </body>
+
+</html>

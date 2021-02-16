@@ -1,0 +1,109 @@
+html {
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+
+body {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#title-name {
+    font-family: monospace;
+    font-weight: 1000;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#links-wrapper {
+    display: block;    
+}
+
+.header-link {
+    position: relative;
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    display: block;
+    width: 200px;
+    margin-bottom: 25px;
+
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.header-link:hover, .header-link:focus, .header-link:active {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+    color: rgb(0, 0, 0);
+}
+
+#about-paragraph {
+    margin-top: -300px;
+    margin-left: 400px;
+    color: rgb(75, 75, 75);
+}
+
+.category-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.project-title {
+    margin-left: 25px;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.project-description {
+    display: block;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+.thumbnail {
+    width: 250px;
+}
+
+a:link {
+    color: rgb(75, 75, 75);
+}
+  
+a:visited {
+    color: rgb(75, 75, 75);
+}
+  
+a:hover {
+    color: rgb(0, 0, 0);   
+}
+  
+a:active {
+    color: rgb(75, 75, 75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#styleButtonsWrapper {
+    position: fixed;
+    bottom: 2%;
+}

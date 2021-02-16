@@ -1,0 +1,104 @@
+html {
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+#title-name {
+    display: block;
+    font-family: 'Goldman', cursive;
+    color: #fff;
+    font-size: 50px;
+    margin: 50;
+}
+
+#links-wrapper {
+    margin-left: 50px;
+    float: left;
+}
+
+.header-link {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+}
+
+.header-link:after {
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.header-link:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+#about-paragraph {
+    margin: 50;
+    color: #fff;
+}
+
+.category-title {
+    font-size: 20px;
+}
+
+.project-title {
+    margin-left: 25px;
+}
+
+.project-description {
+    display: block;
+    margin-left: 35px;
+    font-size: 12px;
+}
+
+.thumbnail {
+    width: 250px;
+}
+
+a:link {
+    color: rgb(180, 180, 180)
+}
+  
+a:visited {
+    color: rgb(180, 180, 180)
+}
+  
+a:hover {
+    color: rgb(255, 255, 255);
+}
+  
+a:active {
+    color: rgb(75, 75, 75);
+}
+
+
+
+#styleButtonsWrapper {
+    position: fixed;
+    bottom: 2%;
+}
+
+#themeText {
+    color: rgb(180, 180, 180);
+}
+
+#styleButton {
+    background-color: rgba(250, 250, 250, 0.4);
+    border-radius: 15%;
+    border-style: inset;    
+}

@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Kyle's Web Server</title>
+        <link id="stylesheet" rel= "stylesheet" href = "/static/styles/light.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap" rel="stylesheet">
+        <link rel= "shortcut icon" href= "/static/images/favicon.ico">
+    </head>
+
+    <body>
+        <p id="title-name">Kyle Wagner</p>
+        
+        <div id="links-wrapper">
+            <a class="header-link" href="/">Home</a>
+            <a class="header-link" href="/python">Python</a>
+            <a class="header-link" href="/javascript">Javascript</a>
+            <a class="header-link" href="/cpp">C++</a>
+            <a class="header-link" href="/ruby">Ruby</a>
+            <a class="header-link" href="/blender">Blender</a>
+            <a class="header-link" href="/unreal">Unreal Engine</a>
+        </div>
+
+        <br>
+        <br>
+
+        <div id="about-paragraph">
+            <p class="category-title">
+                Javascript projects:
+            </p>
+            <br>
+
+            <p>
+                <span class="project-title">Interactive drum kit:</span><br>
+                <span class="project-description">
+                    Get keyboard input from user, then link keys to different sounds.<br>
+                    Also includes some CSS animations.<br>
+                    GitHub Links (open in new window): &nbsp; <a href="https://kylemwagner83.github.io/DrumKit/" target="_blank">Live site</a>
+                    &nbsp; <a href="https://github.com/kylemwagner83/DrumKit" target="_blank">Source Code</a>
+                </span>
+            </p>
+            <br>
+
+            <p>
+                <span class="project-title">Etch-a-sketch:</span><br>
+                <span class="project-description">
+                    Dynamically created live HTML using Javascript.<br>
+                    Lots of custom functions, collecting user input, etc.<br>
+                    GitHub Links (open in new window): &nbsp; <a href="https://kylemwagner83.github.io/Etch-a-sketch/" target="_blank">Live site</a>
+                    &nbsp; <a href="https://github.com/kylemwagner83/Etch-a-sketch" target="_blank">Source Code</a>
+                </span>
+            </p>
+            <br>
+
+            <p>
+                <span class="project-title">Rock, paper, scissors:</span><br>
+                <span class="project-description">
+                    Basic functions, loops, and button input<br>
+                    GitHub Links (open in new window): &nbsp; <a href="https://kylemwagner83.github.io/RPSjavascript/" target="_blank">Live site</a>
+                    &nbsp; <a href="https://github.com/kylemwagner83/RPSjavascript" target="_blank">Source Code</a>
+                </span>
+            </p>
+            <br>
+
+            <p>
+                <span class="project-title">JavascriptCalculator:</span><br>
+                <span class="project-description">
+                    More complex conditional functions<br>
+                    Still have a few bugs to fix, need to improve UI<br>
+                    GitHub Links (open in new window): &nbsp; <a href="https://kylemwagner83.github.io/JavascriptCalculator/" target="_blank">Live site</a>
+                    &nbsp; <a href="https://github.com/kylemwagner83/JavascriptCalculator" target="_blank">Source Code</a>
+                </span>
+            </p>
+
+
+        </div>
+
+
+        <div id="styleButtonsWrapper">
+            <span id="themeText">Choose a theme:</span>
+            <button id="styleButton" onclick="changeTheme('/static/styles/light.css')">Light</button>
+            <button id="styleButton" onclick="changeTheme('/static/styles/dark.css')">Dark</button>
+        </div>
+
+        <script src="/static/scripts/scripts.js"></script>
+    </body>
+
+</html>
